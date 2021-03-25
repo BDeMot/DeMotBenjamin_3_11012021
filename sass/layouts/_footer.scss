@@ -31,3 +31,10 @@ footer {
     }
     
 }
+
+.contact{
+    color: white;
+    &:hover{
+        color: $primarycolor;
+    }
+}

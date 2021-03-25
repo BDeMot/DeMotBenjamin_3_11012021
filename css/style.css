@@ -95,6 +95,13 @@ footer {
   margin-right: 5px;
 }
 
+.contact {
+  color: white;
+}
+.contact:hover {
+  color: #9356dc;
+}
+
 .restaurant-page {
   width: 100%;
   overflow: hidden;
