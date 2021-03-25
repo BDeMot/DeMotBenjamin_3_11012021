@@ -1,0 +1,22 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{ 
+    outline: none; 
+}
+
+body{
+    overflow-x: hidden; //correction d'un bug sur Chrome qui fait apparaître une marge au changement de la taille de l'écran
+}
