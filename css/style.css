@@ -176,11 +176,12 @@ footer {
 
 .heart-icon__svg {
   width: 25px;
-  color: transparent;
+  color: rgba(147, 86, 220, 0);
   stroke: black;
   stroke-width: 20px;
   overflow: visible;
   cursor: pointer;
+  transition: color 0.5s ease-in;
 }
 .heart-icon__svg:hover {
   color: #9356dc;

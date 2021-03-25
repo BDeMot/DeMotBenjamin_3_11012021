@@ -1,13 +1,14 @@
 .heart-icon__svg{
         width: 25px;
-        color: transparent;
+        color: rgba(147, 86, 220, .0);
         stroke: black;
         stroke-width: 20px;
         overflow :visible;
         cursor: pointer;
+        transition: color .5s ease-in;
         
         &:hover{
-            color: $primarycolor;
+            color: rgba(147, 86, 220, 1);
             stroke: $primarycolor;
         }
     
